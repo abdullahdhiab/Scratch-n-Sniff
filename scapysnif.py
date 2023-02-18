@@ -13,7 +13,7 @@ def TZSP_Encap(data):
 
     eth_header = data[0:14].hex()
 
-    #Convert to Hex
+    #Convert to Hex 
     data = data.hex()
     #Ethernet Header
     
